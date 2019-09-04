@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:navegacao_tela/TelaSecundaria.dart';
 
 class TelaPrincipal extends StatefulWidget {
   @override
@@ -21,7 +22,12 @@ class _TelaPrincipalState extends State<TelaPrincipal> {
 							child: Text("Ir para segunda tela"),
 							padding: EdgeInsets.all(15),
 							onPressed: (){
-								
+								Navigator.push(
+									context,
+									MaterialPageRoute(
+										builder: (context) => TelaSecundaria(),
+									)
+								);
 							},
 						)
 					],

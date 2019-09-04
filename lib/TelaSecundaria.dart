@@ -20,8 +20,7 @@ class _TelaSecundariaState extends State<TelaSecundaria> {
 						RaisedButton(
 							child: Text("Ir para segunda tela"),
 							padding: EdgeInsets.all(15),
-							onPressed: (){
-								
+							onPressed: (){								
 							},
 						)
 					],
